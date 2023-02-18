@@ -17,7 +17,7 @@ class Solution
         // your code here
         multiset<int>q;
         vector<int>v;
-        int i=0,j,m=INT_MIN;
+        int j;
         for(int z=0;z<k;z++){
             q.insert(arr[z]);
         }
